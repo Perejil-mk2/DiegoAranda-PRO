@@ -25,3 +25,5 @@ si ves esto borra todo  lo que has escrito el sabado por la tarde
 
 
 # samu se va a liar con mario esta noche
+
+pero que dices pajaloca, anda borra eso calvorotas
