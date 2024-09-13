@@ -18,3 +18,10 @@ bla bla bla
  si esto sale bien respondere
 
 hombreeeeeeeeeeeeeeeeeee claro que has salido bien jeje
+
+
+si ves esto borra todo  lo que has escrito el sabado por la tarde 
+
+
+
+# samu se va a liar con mario esta noche
