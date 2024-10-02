@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Entrada {
 
-
+static Scanner LectorTeclado = new Scanner(System.in);
 
     public static void main (String[] args) {
 
@@ -129,7 +129,7 @@ public class Entrada {
         System.out.println("Introduce un radio entero ...");
     int valorRadio= lectorTeclado.nextInt();
 
-    float longitudCircunferencia = 2*(float)Math.PI*valorRadio;
+    float longitudCircunferencia = 2*(float)Math.PI*valorRadio; //Math.pow = hacer potencias (valorRadio,2)
         System.out.printf("La longitud de la circunferencia es: %2f\n",longitudCircunferencia);
 
         float areaCirculo =(float)Math.PI*(valorRadio*valorRadio);
@@ -218,15 +218,15 @@ public class Entrada {
     public static void ejercicio12() {
 
         System.out.println("Escribe una palabra . . . ");
-            String palabra1= lectorTeclado.next();
+            String palabra1= lectorTeclado.nextLine();
         System.out.println("Escribe otra palabra . . . ");
-            String palabra2= lectorTeclado.next();
+            String palabra2= lectorTeclado.nextLine();
         boolean comparacionA = palabra1.equals(palabra2);
         System.out.printf("Son iguales las palabras?: %b\n",comparacionA);
         boolean comparacionB = palabra1.compareTo(palabra2)==0;
         System.out.printf("La primera es menor que la segunda?: %b\n", comparacionB);
         boolean comparacionC = !comparacionA;
-        System.out.printf("Son distintas las palabras?: %b",comparacionC);
+        System.out.printf("Son distintas las palabras?: %b",comparacionC); // tambien valdria directamente poner !comparacionA en el ultimo souf
 
     }
 
